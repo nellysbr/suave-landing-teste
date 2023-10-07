@@ -13,7 +13,10 @@ const FuturaLTBOLD = localFont({
 
 const LowFooter = () => {
   return (
-    <footer className={FuturaLT.className}>
+    <footer
+      className={`${FuturaLT.className} fixed bottom-0 w-full hidden md:flex`}
+    >
+      {/* Adicionado `hidden md:flex` para ocultar na versão mobile */}
       <div className="w-full bg-custom-low border-top shadow-sm rounded flex items-center justify-center p-2 md:p-4">
         <div className="md:max-w-6xl grid grid-cols-2 gap-2 md:grid-cols-4">
           <div className="flex items-center justify-center md:border-r border-white border-solid p-2">
@@ -29,8 +32,7 @@ const LowFooter = () => {
             />
             <p className="text-white ml-1 text-xs text-center md:text-left max-w-[70%] md:max-w-full">
               LIGUE:
-              <br className="hidden md:inline" />{" "}
-              {/* Quebra de linha apenas na versão web */}
+              <br className="hidden md:inline" />
               <span className={FuturaLTBOLD.className}>(16) 3211-6000</span>
             </p>
           </div>
@@ -38,8 +40,7 @@ const LowFooter = () => {
             <BsWhatsapp size={20} className="text-white mr-1" />
             <p className="text-white ml-1 text-xs text-center md:text-left max-w-[70%] md:max-w-full">
               whatsapp:
-              <br className="hidden md:inline" />{" "}
-              {/* Quebra de linha apenas na versão web */}
+              <br className="hidden md:inline" />
               <span className={FuturaLTBOLD.className}>(16) 98860-9905</span>
             </p>
           </div>
