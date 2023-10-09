@@ -86,7 +86,7 @@ const Formulario = () => {
             <p className="text-white mb-6 uppercase">
               Quero receber contato por:
             </p>
-            <div className="flex items-center justify-between align-middle w-full">
+            <div className="flex items-center justify-center align-middle w-full">
               <input
                 type="checkbox"
                 name="whatsapp"
