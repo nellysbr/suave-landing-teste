@@ -86,7 +86,7 @@ export default function Home() {
             </div>
           </div>
           <div
-            className="col-4 flex bg-custom-container-04 h-[295px] mb-8 pb-2 max-w-[900px] w-full"
+            className="col-4 flex bg-custom-container-04 h-[295px] md:mb-8 pb-2 max-w-[900px] w-full"
             style={{
               backgroundImage: "url('/assets/fiat-car-04.png')",
               backgroundSize: "cover", // Adjust to your needs

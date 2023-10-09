@@ -1,6 +1,21 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const Formulario = () => {
+  const [form, setForm] = useState({
+    name: "",
+    tel: "",
+    email: "",
+    cpf: "",
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+
   return (
     <div className="container mx-auto w-full">
       <div className="max-w-md mx-auto mt-4 p-4 rounded-md">
@@ -27,7 +42,8 @@ const Formulario = () => {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full focus:outline-none text-white bg-custom-low"
+                className="w-full focus:outline-none text-white bg-custom-low font-bold"
+                onChange={handleChange}
               />
             </div>
           </div>
@@ -44,7 +60,8 @@ const Formulario = () => {
                 type="tel"
                 id="tel"
                 name="tel"
-                className="w-full focus:outline-none text-white bg-custom-low"
+                className="w-full focus:outline-none text-white font-bold bg-custom-low"
+                onChange={handleChange}
               />
             </div>
           </div>
@@ -61,7 +78,8 @@ const Formulario = () => {
                 type="mail"
                 id="mail"
                 name="mail"
-                className="w-full focus:outline-none text-white bg-custom-low"
+                className="w-full focus:outline-none text-white bg-custom-low font-bold"
+                onChange={handleChange}
               />
             </div>
           </div>
@@ -78,7 +96,8 @@ const Formulario = () => {
                 type="text"
                 id="cpf"
                 name="cpf"
-                className="w-full focus:outline-none text-white bg-custom-low"
+                className="w-full focus:outline-none text-white bg-custom-low font-bold"
+                onChange={handleChange}
               />
             </div>
           </div>

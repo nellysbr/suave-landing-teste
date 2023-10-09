@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 const montSerrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fiat - Landing suave",
+  title: "Atri | Fiat - Landing suave",
   description: "Lading page teste técnico",
 };
 
