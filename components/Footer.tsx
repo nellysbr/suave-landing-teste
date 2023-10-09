@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <section className="w-full h-full bg-white md:h-80 md:-mt-24 z-0 flex items-center justify-center p-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 max-w-screen-xl mx-auto place-content-center items-center place-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-4 max-w-screen-xl mx-auto place-content-center items-center place-items-center md:max-w-[1120px]">
           {/* Column 1 */}
           <div className="col-span-1 md:col-span-1 mx-auto md:mb-0 mb-8 mt-10 flex items-center justify-center w-full">
             <Image

@@ -7,7 +7,7 @@ export default function Home() {
     <main className="container mx-auto max-w-[1120px]">
       <Hero />
       <div className="flex flex-wrap justify-center gap-4">
-        <div className="max-w-screen-xl md:mb-20 mt-10 mb-5">
+        <div className="max-w-screen-xl md:mb-20 mt-10 mb-10">
           <Image
             src="/assets/inspirado.png"
             alt="inspirado"
@@ -23,15 +23,15 @@ export default function Home() {
             className="col-4 flex bg-custom-container-01 h-[295px] mb-8 pb-2 max-w-[900px] w-full"
             style={{
               backgroundImage: "url('/assets/fiat-car-01.png')",
-              backgroundSize: "cover", // Adjust to your needs
-              backgroundPosition: "center left", // Adjust to your needs
+              backgroundSize: "cover",
+              backgroundPosition: "center left",
               borderBottom: "8px solid #eeb92e",
             }}
           >
             <div className="flex flex-col justify-center justify-items-start place-content-start items-start relative ml-14">
               <div>
                 <h1 className="uppercase font-bold text-center bg-custom-container-01 p-2 mb-4">
-                  disign
+                  design
                 </h1>
                 <p className="uppercase text-white font-bold md:text-xl">
                   autêntico
@@ -45,15 +45,15 @@ export default function Home() {
             className="col-4 flex bg-custom-container-02 h-[295px] mb-8 pb-2 max-w-[900px] w-full"
             style={{
               backgroundImage: "url('/assets/fiat-car-02.png')",
-              backgroundSize: "cover", // Adjust to your needs
-              backgroundPosition: "center left", // Adjust to your needs
+              backgroundSize: "cover",
+              backgroundPosition: "center left",
               borderBottom: "8px solid #b61e31",
             }}
           >
             <div className="flex flex-col justify-center justify-items-start place-content-start items-start relative ml-14">
               <div>
                 <h1 className="uppercase font-bold text-center bg-custom-container-02 p-2 mb-4">
-                  disign
+                  design
                 </h1>
                 <p className="uppercase text-white font-bold md:text-xl">
                   interior
@@ -67,8 +67,8 @@ export default function Home() {
             className="col-4 flex bg-custom-container-03 h-[295px] mb-8 pb-2 max-w-[900px] w-full"
             style={{
               backgroundImage: "url('/assets/fiat-car-03.png')",
-              backgroundSize: "cover", // Adjust to your needs
-              backgroundPosition: "center left", // Adjust to your needs
+              backgroundSize: "cover",
+              backgroundPosition: "center left",
               borderBottom: "8px solid #abd8e4",
             }}
           >
@@ -89,8 +89,8 @@ export default function Home() {
             className="col-4 flex bg-custom-container-04 h-[295px] md:mb-8 pb-2 max-w-[900px] w-full"
             style={{
               backgroundImage: "url('/assets/fiat-car-04.png')",
-              backgroundSize: "cover", // Adjust to your needs
-              backgroundPosition: "center left", // Adjust to your needs
+              backgroundSize: "cover",
+              backgroundPosition: "center left",
               borderBottom: "8px solid #e48193",
             }}
           >
