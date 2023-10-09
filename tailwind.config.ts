@@ -17,6 +17,7 @@ const config: Config = {
     colors: {
       "custom-low": "#db1a32",
       white: "#ffffff",
+      "custom-yellow": "#e4b236",
     },
   },
 

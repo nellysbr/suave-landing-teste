@@ -13,9 +13,7 @@ const FuturaLTBOLD = localFont({
 
 const LowFooter = () => {
   return (
-    <footer
-      className={`${FuturaLT.className} fixed bottom-0 w-full hidden md:flex`}
-    >
+    <footer className={`${FuturaLT.className} bottom-0 w-full hidden md:flex`}>
       {/* Adicionado `hidden md:flex` para ocultar na versão mobile */}
       <div className="w-full bg-custom-low border-top shadow-sm rounded flex items-center justify-center p-2 md:p-4">
         <div className="md:max-w-6xl grid grid-cols-2 gap-2 md:grid-cols-4">
