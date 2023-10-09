@@ -18,6 +18,10 @@ const config: Config = {
       "custom-low": "#db1a32",
       white: "#ffffff",
       "custom-yellow": "#e4b236",
+      "custom-container-01": "#eeb92e",
+      "custom-container-02": "#b61e31",
+      "custom-container-03": "#abd8e4",
+      "custom-container-04": "#e48193",
     },
   },
 

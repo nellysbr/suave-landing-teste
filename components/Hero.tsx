@@ -4,24 +4,21 @@ import Formulario from "./FormNews";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
-        {/* Imagem ocupando 3 colunas em telas grandes */}
-        <div className="col-span-1 md:col-span-3">
-          <Image
-            src="/assets/light-car.png"
-            alt="car image"
-            width={1120}
-            height={1000}
-          />
+    <div className="grid grid-col-4">
+      <div className="col-1 md:col-4 flex align-middle justify-center">
+        <Image
+          src="/assets/light-car.png"
+          alt="car image"
+          width={1120}
+          height={1000}
+          className="object-cover object-fit w-full h-full z-0 border-none rounded-md"
+        />
+        <div className="md:flex hidden p-4 shadow w-full bg-custom-low rounded-bl-3xl h-full md:-ml-44 z-20">
+          <Formulario />
         </div>
-
-        {/* Formulário ocupando 1 coluna em telas grandes */}
-        <div className="col-span-1 md:col-span-1">
-          <div className="p-4 shadow bg-custom-low rounded-bl-3xl h-full">
-            <Formulario />
-          </div>
-        </div>
+      </div>
+      <div className="md:hidden flex col-4 p-4 shadow w-full bg-custom-low rounded-bl-3xl h-full z-20">
+        <Formulario />
       </div>
     </div>
   );

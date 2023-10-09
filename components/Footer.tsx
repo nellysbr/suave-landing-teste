@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
 
   return (
     <>
-      <section className="w-full md:flex z-0 bg-white h-80">
+      <section className="w-full md:flex bg-white h-80 -mt-24 z-0">
         <div className="w-full flex items-center justify-center">
           <div className="max-w-6xl grid grid-cols-1 md:grid-cols-4 gap-4 mx-auto">
             {columnContent.map((content, index) => (
