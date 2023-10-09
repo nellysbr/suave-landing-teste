@@ -26,6 +26,12 @@ select {
     sans-serif;
 }
 
+.custom-arrow {
+  background-image: url("/assets/seta-select.png");
+  background-position: center;
+  background-size: contain;
+}
+
 body {
   background-color: #15212a;
 }

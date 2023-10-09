@@ -10,7 +10,7 @@ export default function Home() {
         <div className="max-w-screen-xl md:mb-20 mt-10 mb-5">
           <Image
             src="/assets/inspirado.png"
-            alt="car image"
+            alt="inspirado"
             width={1120}
             height={1000}
             className="object-cover w-[1000px] rounded-md"
