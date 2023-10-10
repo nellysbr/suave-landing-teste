@@ -1,6 +1,6 @@
 # Suave Landing Page
 
-Lamding page para teste técnico.
+Landing page para teste técnico.
 
 ## Tech's
 
